@@ -1,0 +1,203 @@
+body {
+  background-color: rgba(0, 0, 0, 0.87);
+  height: 700px;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 720px;
+  border: 1px;
+  margin: auto;
+  width: 80%;
+  background-color: rgba(128, 128, 128, 0.431);
+}
+
+#word {
+  color: white;
+  position: relative;
+  font-size: 25px;
+  left: 60px;
+  top: 18px;
+}
+
+.topWord {
+  position: absolute;
+  font-size: 21px;
+  color: white;
+  top: 140px;
+}
+
+#level-1 {
+  left: 240px;
+}
+
+#level-2 {
+  left: 390px;
+}
+
+#level-3 {
+  left: 570px;
+}
+
+#level-4 {
+  left: 720px;
+}
+#level-5 {
+  left: 890px;
+}
+
+.line {
+  margin: auto;
+  position: absolute;
+  border-bottom: 2.2px solid white;
+  height: 350px;
+  width: 850px;
+  top: 215px;
+  left: 160px;
+}
+
+#dash {
+  position: absolute;
+  width: 16px;
+  left: 157px;
+  top: 263px;
+  border-bottom: 2.2px solid white;
+}
+
+.nums {
+  position: absolute;
+  color: white;
+  font-size: 21px;
+}
+
+#num1 {
+  left: 150px;
+  top: 403px;
+}
+
+#num2 {
+  left: 115px;
+  top: 252px;
+}
+
+#num3 {
+  left: 141px;
+  top: 550px;
+}
+
+#vert {
+  transform: rotate(+270deg);
+  top: 400px;
+  left: 20px;
+}
+
+#line1 {
+  position: absolute;
+  border-left: 2.2px solid white;
+  left: 164px;
+  height: 130px;
+  top: 265px;
+}
+
+#line2 {
+  position: absolute;
+  height: 130px;
+  border-left: 2.2px solid white;
+  top: 436px;
+  left: 164px;
+}
+
+.ranking {
+  position: absolute;
+  font-size: 21px;
+  color: white;
+  top: 580px;
+}
+
+#rank1 {
+  left: 240px;
+}
+
+#rank2 {
+  left: 390px;
+}
+
+#rank3 {
+  left: 565px;
+}
+
+#rank4 {
+  left: 725px;
+}
+
+#rank5 {
+  left: 880px;
+}
+
+#percent {
+  top: 618px;
+  left: 563px;
+}
+
+#bottom {
+  top: 670px;
+  left: 50px;
+}
+
+a {
+  color: aliceblue;
+}
+
+.highlight {
+  position: absolute;
+  border: 1px;
+  height: 488px;
+  width: 150px;
+  background: rgba(172, 255, 47, 0.096);
+  left: 535px;
+  top: 120px;
+  border-top: 6px solid rgba(130, 202, 5, 0.699);
+}
+
+.highlight2 {
+  position: absolute;
+  border: 1px;
+  height: 488px;
+  width: 150px;
+  background: rgba(172, 255, 47, 0.096);
+  left: -500px;
+  top: 120px;
+  border-top: 6px solid rgba(130, 202, 5, 0.699);
+}
+
+.empty1 {
+  left: 200px;
+  position: absolute;
+  height: 488px;
+  width: 150px;
+}
+.empty2 {
+  left: 363px;
+  position: absolute;
+  height: 488px;
+  width: 150px;
+}
+.empty3 {
+  left: 535px;
+  position: absolute;
+  height: 488px;
+  width: 150px;
+}
+.empty4 {
+  left: 700px;
+  position: absolute;
+  height: 488px;
+  width: 150px;
+}
+.empty5 {
+  left: 850px;
+  position: absolute;
+  height: 488px;
+  width: 150px;
+}
